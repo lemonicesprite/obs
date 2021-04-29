@@ -1,0 +1,7 @@
+Create a new token
+<status code="ok">
+  <summary>Ok</summary>
+  <data name="token">RfxSVXDfy1LJ32Dk4pcA2NUc</data>
+  <data name="id">4850</data>
+</status>
+
