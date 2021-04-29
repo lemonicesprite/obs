@@ -1,18 +1,19 @@
 <services>
-  <service name="tar_scm">
-    <param name="scm">git</param>
-    <param name="subdir">src</param>
-    <param name="url">https://github.com/lemon-sudo/obs.git</param>
-    <param name="versionprefix">0.4.git</param>
-    <param name="filename">obstest</param>
-  </service>
-  <service name="extract_file">
-    <param name="archive">*.tar</param>
-    <param name="files">*/deb/* */rpm/obslight.changes */rpm/obslight.spec */rpm/obslight.yaml</param>
-  </service>
-  <service name="recompress">
-    <param name="file">*git*.tar</param>
-    <param name="compression">gz</param>
-  </service>
-  <service name="set_version"/>
+    <service name="obs_scm">
+        <param name="url">https://github.com/OSInside/kiwi.git</param>
+        <param name="scm">git</param>
+        <param name="subdir">build-tests/x86/debian/test-image-live-disk</param>
+        <param name="extract">appliance.kiwi</param>
+        <param name="extract">config.sh</param>
+        <param name="exclude">root</param>
+      	<param name="revision">add_uefi_support_on_ubuntu</param>
+    </service>
+    <service name="obs_scm">
+        <param name="url">https://github.com/OSInside/kiwi.git</param>
+        <param name="scm">git</param>
+        <param name="subdir">build-tests/x86/debian/test-image-live-disk/root</param>
+        <param name="filename">root</param>
+        <param name="version">_none_</param>
+      	<param name="revision">add_uefi_support_on_ubuntu</param>
+    </service>
 </services>

@@ -1,0 +1,5 @@
+<multibuild>
+    <flavor>Disk</flavor>
+    <flavor>Virtual</flavor>
+    <flavor>Live</flavor>
+</multibuild>
