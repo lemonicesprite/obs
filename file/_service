@@ -1,17 +1,17 @@
 <services>
     <service name="obs_scm">
-        <param name="url">https://github.com/OSInside/kiwi.git</param>
+        <param name="url">https://github.com/lemon-sudo/obs.git</param>
         <param name="scm">git</param>
-        <param name="subdir">build-tests/x86/debian/test-image-live-disk</param>
+        <param name="subdir">script/x86/debian</param>
         <param name="extract">appliance.kiwi</param>
         <param name="extract">config.sh</param>
         <param name="exclude">root</param>
       	<param name="revision">add_uefi_support_on_ubuntu</param>
     </service>
     <service name="obs_scm">
-        <param name="url">https://github.com/OSInside/kiwi.git</param>
+        <param name="url">https://github.com/lemon-sudo/obs.git</param>
         <param name="scm">git</param>
-        <param name="subdir">build-tests/x86/debian/test-image-live-disk/root</param>
+        <param name="subdir">script/x86/debian/root</param>
         <param name="filename">root</param>
         <param name="version">_none_</param>
       	<param name="revision">add_uefi_support_on_ubuntu</param>
