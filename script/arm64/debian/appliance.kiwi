@@ -72,7 +72,6 @@
 		<package name="dracut"/>
         <package name="xz-utils"/>
         <package name="binutils"/>
-        <package name="linux-image-amd64"/>
         <package name="isolinux"/>
         <package name="syslinux-common"/>
         <package name="init"/>
